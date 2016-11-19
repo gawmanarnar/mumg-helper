@@ -1,0 +1,13 @@
+{
+  "intents": [
+    {
+      "intent": "GetAbilityText",
+      "slots": [
+        {
+          "name": "AbilityName",
+          "type": "LIST_OF_ITEMS"
+        }
+      ]
+    }
+  ]
+}

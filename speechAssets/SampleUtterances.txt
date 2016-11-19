@@ -1,0 +1,70 @@
+GetAbilityText {AbilityName}
+GetAbilityText {AbilityName} rule
+GetAbilityText {AbilityName} keyword
+GetAbilityText {AbilityName} ability
+GetAbilityText what does {AbilityName} do
+GetAbilityText what does {AbilityName} rule do
+GetAbilityText what does {AbilityName} keyword do
+GetAbilityText what does {AbilityName} ability do
+GetAbilityText what does the {AbilityName} rule do
+GetAbilityText what does the {AbilityName} keyword do
+GetAbilityText what does the {AbilityName} ability do
+GetAbilityText what do the {AbilityName} rules do
+GetAbilityText what is {AbilityName}
+GetAbilityText what is the {AbilityName} rule
+GetAbilityText what is the {AbilityName} keyword
+GetAbilityText what is the {AbilityName} ability
+GetAbilityText define {AbilityName}
+GetAbilityText define the {AbilityName} rule
+GetAbilityText define the {AbilityName} rules
+GetAbilityText define the {AbilityName} keyword
+GetAbilityText define the {AbilityName} ability
+GetAbilityText lookup {AbilityName}
+GetAbilityText lookup the {AbilityName} rule
+GetAbilityText lookup the {AbilityName} rules
+GetAbilityText lookup the {AbilityName} keyword
+GetAbilityText lookup the {AbilityName} ability
+GetAbilityText rules on {AbilityName}
+GetAbilityText rules on the {AbilityName} rule
+GetAbilityText rules on the {AbilityName} keyword
+GetAbilityText rules on the {AbilityName} ability
+GetAbilityText rules for {AbilityName}
+GetAbilityText rules for the {AbilityName} rule
+GetAbilityText rules for the {AbilityName} keyword
+GetAbilityText rules for the {AbilityName} ability
+GetAbilityText rule check on {AbilityName}
+GetAbilityText rule check on the {AbilityName} rule
+GetAbilityText rule check on the {AbilityName} keyword
+GetAbilityText rule check on the {AbilityName} ability
+GetAbilityText rules check on {AbilityName}
+GetAbilityText rules check on the {AbilityName} rule
+GetAbilityText rules check on the {AbilityName} keyword
+GetAbilityText rules check on the {AbilityName} ability
+GetAbilityText can we get a rule check on {AbilityName}
+GetAbilityText can we get a rule check on the {AbilityName} rule
+GetAbilityText can we get a rule check on the {AbilityName} rules
+GetAbilityText can we get a rule check on the {AbilityName} keyword
+GetAbilityText can we get a rule check on the {AbilityName} ability
+GetAbilityText can we get a rules check on {AbilityName}
+GetAbilityText can we get a rules check on the {AbilityName} rule
+GetAbilityText can we get a rules check on the {AbilityName} keyword
+GetAbilityText can we get a rules check on the {AbilityName} ability
+GetAbilityText read me {AbilityName}
+GetAbilityText read me the {AbilityName} rule
+GetAbilityText read me the {AbilityName} rules
+GetAbilityText read me the {AbilityName} keyword
+GetAbilityText read me the {AbilityName} ability
+GetAbilityText get me {AbilityName}
+GetAbilityText get me the {AbilityName} rule
+GetAbilityText get me the {AbilityName} keyword
+GetAbilityText get me the {AbilityName} ability
+GetAbilityText tell me the {AbilityName} rule
+GetAbilityText tell me the {AbilityName} rules
+GetAbilityText tell me the {AbilityName} keyword
+GetAbilityText tell me the {AbilityName} ability
+GetAbilityText how does {AbilityName} work
+GetAbilityText how does the {AbilityName} rule work
+GetAbilityText how does the {AbilityName} keyword work
+GetAbilityText how does the {AbilityName} ability work
+GetAbilityText {AbilityName} how does it work
+GetAbilityText back me up on {AbilityName}
