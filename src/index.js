@@ -11,15 +11,15 @@ var APP_ID = undefined; //OPTIONAL: replace with 'amzn1.echo-sdk-ams.app.[your-u
  *
  * @see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript#Inheritance
  */
-var HowTo = function () {
+var RuleReference = function () {
     AlexaSkill.call(this, APP_ID);
 };
 
 // Extend AlexaSkill
-HowTo.prototype = Object.create(AlexaSkill.prototype);
-HowTo.prototype.constructor = HowTo;
+RuleReference.prototype = Object.create(AlexaSkill.prototype);
+RuleReference.prototype.constructor = RuleReference;
 
-HowTo.prototype.eventHandlers.onLaunch = function (launchRequest, session, response) {
+RuleReference.prototype.eventHandlers.onLaunch = function (launchRequest, session, response) {
     var speechText = "Welcome to the Superhero Miniature Game Reference, a rules reference for the tabletop game by Knight Models. You can ask a question like, what does the Mastermind ability do? ... Now, what would you like to know?";
     // If the user either does not reply to the welcome message or says something that is not
     // understood, they will be prompted again with this text.
@@ -27,7 +27,7 @@ HowTo.prototype.eventHandlers.onLaunch = function (launchRequest, session, respo
     response.ask(speechText, repromptText);
 };
 
-HowTo.prototype.intentHandlers = {
+RuleReference.prototype.intentHandlers = {
     "GetAbilityText": function (intent, session, response) {
         var itemSlot = intent.slots.Item,
             itemName;
@@ -89,6 +89,6 @@ HowTo.prototype.intentHandlers = {
 };
 
 exports.handler = function (event, context) {
-    var howTo = new HowTo();
-    howTo.execute(event, context);
+    var reference = new RuleReference();
+    reference.execute(event, context);
 };
