@@ -42,5 +42,17 @@ module.exports = {
     "toughness": "Toughness X: The character with this ability has the following special features: His size is increased (or reduced if the number is negative) by X. In addition, the distance this character can be pushed or thrown is also reduced by X inches.",
     "total vision": "Total Vision: This character can draw line of sight to any point on the gaming area ignoring effects, scenery, Invisible, and Stealth rules.",
     "wall crawler": "Wall-Crawler: A character with this ability suffers no penalty to their movement while climbing, and can end their movement in any part of the gaming area, even if their base does not fit. The character may not end their movement in a space occupied by other character. Mark the exact position of the miniature with a counter.",
-    "weakness": "Weakness X: If this character suffers any kind of damage of X nature or damage type, the damage received is doubled. This rule cancels any resistance or immunity abilities the character may have."
+    "weakness": "Weakness X: If this character suffers any kind of damage of X nature or damage type, the damage received is doubled. This rule cancels any resistance or immunity abilities the character may have.",
+    "close combat master" : "Close combat master: This character may reroll one of the dice To Hit each time they make a Melee To Hit roll.",
+    "comrade" : "Comrade X: Unactivated Character X can be activated immediately after the character with the Comrade ability. This allows you to activate two characters consecutively, bypassing the usual sequence of play.",
+    "defensive teamwork" : "Defensive Teamwork: When this character is in contact with one or more friendly characters, those friendly characters gain plus one to Physical and Energy defenses. This bonus doesn't Stack.",
+    "elite fighter" : "Elite Fighter: This character gains plus one to their To Hit rolls on all melee attacks.",
+    "energy" : "Energy: Once per round, this character may use the Overload rule twice in the same Attack.",
+    "fury" : "Fury: Once per game, at the beginning of this character's activation this character can reduce all its defenses by 3 until this character's next activation. If used it gains plus one to attack damage, plus two to its Attack stat and three power counters. This effect lasts until the end of the round.",
+    "heroic action" : "Heroic Action: The first attack this character makes each round gains +1 to damage.",
+    "power master" : "Power master: When this character uses the overload rule the base damage of the overloaded attack is increased by 1.",
+    "power thief" : "Power thief: When this character damages another character with a melee attack, the target loses one Power Counter (if possible), if this happens the attacker gains one Power Counter.",
+    "power transference" : "Power transference: At the beginning of this character's activation, it can transfer up to X Power Counters to a friendly model within 4 inches.",
+    "sharpshooter" : "Sharpshooter: This character may reroll one of the dice To Hit dice each time they make a Ranged To Hit roll.",
+    "solid" : "Solid: This character cannot use Defensive Improvements."
 };

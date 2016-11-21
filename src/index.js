@@ -29,7 +29,7 @@ RuleReference.prototype.eventHandlers.onLaunch = function (launchRequest, sessio
 
 RuleReference.prototype.intentHandlers = {
     "GetAbilityText": function (intent, session, response) {
-        var itemSlot = intent.slots.Item,
+        var itemSlot = intent.slots.AbilityName,
             itemName;
         if (itemSlot && itemSlot.value){
             itemName = itemSlot.value.toLowerCase();
