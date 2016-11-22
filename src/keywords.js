@@ -14,7 +14,6 @@ module.exports = {
     "agile": "Agile: This model can make one extra movement action per round.",
     "assassin": "Assassin: If this character scores a double 8 on a to hit roll doing a melee or ranged attack, the base damage of that attack is doubled.",
     "brutal": "Brutal: If this character scores a critical hit for a melee attack, the attacker may choose to apply the Push 4 effect to the target in addition to the usual plus one to damage.",
-    "comrade": "Comrade X: Character X can be activated immediately after the character with the Comrade ability. This allows you to activate two characters consecutively, bypassing the usual sequence of play.",
     "cruel": "Cruel: If the target character’s Endurance is in the red zone after this attack is resolved, add 1 to the damage caused.",
     "fly": "Fly: This character may move in any direction, even vertically, to land on a higher or lower level of the tabletop. The character never takes damage from falling but may still become knocked down. In addition, the character gains a plus one bonus to Defense against melee attacks from models without the Fly Skill (if a model loses the Fly skill for any reason, it also loses it’s third Speed value).",
     "great strategist" : "Great Strategist: At the start of the game, add an extra counter for your side to the initiative bag.",

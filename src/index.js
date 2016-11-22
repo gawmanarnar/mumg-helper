@@ -20,7 +20,7 @@ RuleReference.prototype = Object.create(AlexaSkill.prototype);
 RuleReference.prototype.constructor = RuleReference;
 
 RuleReference.prototype.eventHandlers.onLaunch = function (launchRequest, session, response) {
-    var speechText = "Welcome to the Unofficial Superhero Tabletop Assistant, a fan-made rules reference for the Marvel and DC Universe Miniatures Game. You can ask a question like, what does the Mastermind ability do? ... Now, what would you like to know?";
+    var speechText = "Welcome to the Unofficial Superhero Tabletop Assistant, a fan-made rules reference for the Marvel and DC Universe Miniature Game. You can ask a question like, what does the Mastermind ability do? ... Now, what would you like to know?";
     // If the user either does not reply to the welcome message or says something that is not
     // understood, they will be prompted again with this text.
     var repromptText = "For instructions on what you can say, please say help me.";
@@ -74,8 +74,8 @@ RuleReference.prototype.intentHandlers = {
     },
 
     "AMAZON.HelpIntent": function (intent, session, response) {
-        var speechText = "You can ask questions such as, what's the rule, or, what's the ability, or, you can say exit... Now, what can I help you with?";
-        var repromptText = "You can say things like, what's the rule, or what's the ability, or you can say exit... Now, what can I help you with?";
+        var speechText = "You can ask questions such as, what does the X ability do? where X is the ability name, or, you can say cancel... Now, what can I help you with?";
+        var repromptText = "You can say things like, what does the X ability do? where X is the ability name, or you can say cancel... Now, what can I help you with?";
         var speechOutput = {
             speech: speechText,
             type: AlexaSkill.speechOutputType.PLAIN_TEXT

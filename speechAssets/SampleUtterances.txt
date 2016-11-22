@@ -17,6 +17,10 @@ GetAbilityText what is {AbilityName}
 GetAbilityText what is the {AbilityName} rule
 GetAbilityText what is the {AbilityName} keyword
 GetAbilityText what is the {AbilityName} ability
+GetAbilityText what's {AbilityName}
+GetAbilityText what's the {AbilityName} rule
+GetAbilityText what's the {AbilityName} keyword
+GetAbilityText what's the {AbilityName} ability
 GetAbilityText define {AbilityName}
 GetAbilityText define the {AbilityName} rule
 GetAbilityText define the {AbilityName} rules
