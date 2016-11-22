@@ -3,7 +3,7 @@
 var AlexaSkill = require('./AlexaSkill'),
     abilities = require('./keywords');
 
-var APP_ID = undefined; //OPTIONAL: replace with 'amzn1.echo-sdk-ams.app.[your-unique-value-here]';
+var APP_ID = '';
 
 /**
  * Superhero Miniature Game Reference is a child of AlexaSkill.
@@ -20,7 +20,7 @@ RuleReference.prototype = Object.create(AlexaSkill.prototype);
 RuleReference.prototype.constructor = RuleReference;
 
 RuleReference.prototype.eventHandlers.onLaunch = function (launchRequest, session, response) {
-    var speechText = "Welcome to the Superhero Miniature Game Reference, a rules reference for the tabletop game by Knight Models. You can ask a question like, what does the Mastermind ability do? ... Now, what would you like to know?";
+    var speechText = "Welcome to the Unofficial Superhero Tabletop Assistant, a fan-made rules reference for the Marvel and DC Universe Miniatures Game. You can ask a question like, what does the Mastermind ability do? ... Now, what would you like to know?";
     // If the user either does not reply to the welcome message or says something that is not
     // understood, they will be prompted again with this text.
     var repromptText = "For instructions on what you can say, please say help me.";

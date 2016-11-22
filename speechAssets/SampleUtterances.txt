@@ -3,6 +3,9 @@ GetAbilityText {AbilityName} rule
 GetAbilityText {AbilityName} keyword
 GetAbilityText {AbilityName} ability
 GetAbilityText what does {AbilityName} do
+GetAbilityText what the {AbilityName} rule does
+GetAbilityText what the {AbilityName} keyword does
+GetAbilityText what the {AbilityName} ability does
 GetAbilityText what does {AbilityName} rule do
 GetAbilityText what does {AbilityName} keyword do
 GetAbilityText what does {AbilityName} ability do
@@ -49,6 +52,10 @@ GetAbilityText can we get a rules check on {AbilityName}
 GetAbilityText can we get a rules check on the {AbilityName} rule
 GetAbilityText can we get a rules check on the {AbilityName} keyword
 GetAbilityText can we get a rules check on the {AbilityName} ability
+GetAbilityText read the {AbilityName}
+GetAbilityText read the {AbilityName} rule
+GetAbilityText read the {AbilityName} keyword
+GetAbilityText read the the {AbilityName} ability
 GetAbilityText read me {AbilityName}
 GetAbilityText read me the {AbilityName} rule
 GetAbilityText read me the {AbilityName} rules
